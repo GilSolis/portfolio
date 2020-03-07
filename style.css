@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+#home {
+  height: 100vh;
+  background-color: lightseagreen;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh;
+  padding: 30vh; */
+  border: 1px solid red;
+  width: 30%;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+}
+
+#about {
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+#projects {
+  height: 100vh;
+  background-color: lightskyblue;
+}
+
+#contact {
+  height: 100vh;
+  background-color: lightslategray;
+}
