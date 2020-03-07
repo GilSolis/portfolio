@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  width: 40vw;
+  text-align: justify;
+}
+
+#title {
+  background: url("long.jpg");
+  font-family: Alfa Slab One;
+  /* color: black; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+h1 {
+  font-family: Alfa Slab One;
+  text-align-last: justify;
+  font-size: 9vw;
+}
+h4 {
+  font-family: Alfa Slab One;
+  margin-top: -10%;
+  text-align: center;
+  font-size: 5vw;
+  /* color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2vw;
+}
+
+#about {
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+#projects {
+  height: 100vh;
+  background-color: lightskyblue;
+}
+
+#contact {
+  height: 100vh;
+  background-color: lightslategray;
+}
+
+/* h1:hover {
+  color: #fff;
+  text-shadow: -1px -1px 0 #00f, 1px -1px 0 #00f, -1px 1px 0 #00f,
+    1px 1px 0 #00f;
+} */
