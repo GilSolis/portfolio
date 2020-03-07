@@ -30,7 +30,7 @@ html {
 #title {
   background: url("long.jpg");
   font-family: Alfa Slab One;
-  color: red;
+  /* color: black; */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-stroke-width: 2px;
