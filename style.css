@@ -34,7 +34,7 @@ html {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: blue;
 }
 
 h1 {
@@ -72,11 +72,30 @@ h4 {
 
 #contact {
   height: 100vh;
-  background-color: lightslategray;
+  background-image: url("kindajean.png");
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* h1:hover {
-  color: #fff;
-  text-shadow: -1px -1px 0 #00f, 1px -1px 0 #00f, -1px 1px 0 #00f,
-    1px 1px 0 #00f;
-} */
+#contacttitle {
+  margin: 5vw;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-weight: bolder;
+}
+
+#form {
+  width: 80vw;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px black;
+}
+
+.media-object {
+  width: 80vw;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin: 5% 10%;
+}
