@@ -65,20 +65,20 @@ h4 {
 } */
 #about {
   height: 100vh;
-  background-color: lightgreen;
+  background-image: url(./images/pavement-2117938.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#biopic {
-  /* width: 100%; */
-  height: auto;
+  color: white;
 }
 
 #projects {
   height: 100vh;
-  background-color: lightskyblue;
+  background-color: white;
+}
+
+#listofprojects {
+  height: 50%;
 }
 
 #contact {
@@ -93,9 +93,25 @@ h4 {
   margin-top: auto;
   font-weight: bolder;
 }
+#biopic {
+  border-radius: 50%;
+}
 
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #form {
-  width: 80vw;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 20vw;
+  height: 90%;
 }
 
 .shadow {
@@ -109,4 +125,10 @@ h4 {
   align-items: center;
   justify-content: center;
   margin: 5% 10%;
+}
+
+/* hover effects */
+
+.hoverlinks:hover {
+  transform: scale(1.5);
 }
