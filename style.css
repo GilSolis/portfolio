@@ -28,7 +28,7 @@ html {
 }
 
 #title {
-  background: url("long.jpg");
+  background: url("./images/long.jpg");
   font-family: Alfa Slab One;
   /* color: black; */
   -webkit-text-fill-color: transparent;
@@ -60,9 +60,20 @@ h4 {
   font-size: 2vw;
 }
 
+/* .fi-home {
+  font-size: 72px;
+} */
 #about {
   height: 100vh;
   background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#biopic {
+  /* width: 100%; */
+  height: auto;
 }
 
 #projects {
@@ -72,7 +83,7 @@ h4 {
 
 #contact {
   height: 100vh;
-  background-image: url("kindajean.png");
+  background-image: url("./images/kindajean.png");
   font-family: Arial, Helvetica, sans-serif;
 }
 
