@@ -14,6 +14,7 @@ html {
   margin: 0;
 }
 
+/* Home page */
 #home {
   height: 100vh;
   display: flex;
@@ -59,7 +60,12 @@ h4 {
   justify-content: space-between;
   font-size: 2vw;
 }
-
+#social {
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
 /* .fi-home {
   font-size: 72px;
 } */
