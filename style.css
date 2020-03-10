@@ -14,6 +14,7 @@ html {
   margin: 0;
 }
 
+/* Home page */
 #home {
   height: 100vh;
   display: flex;
@@ -28,7 +29,7 @@ html {
 }
 
 #title {
-  background: url("long.jpg");
+  background: url("./images/long.jpg");
   font-family: Alfa Slab One;
   /* color: black; */
   -webkit-text-fill-color: transparent;
@@ -59,20 +60,36 @@ h4 {
   justify-content: space-between;
   font-size: 2vw;
 }
-
+#social {
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .fi-home {
+  font-size: 72px;
+} */
 #about {
   height: 100vh;
-  background-color: lightgreen;
+  background-image: url(./images/pavement-2117938.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 #projects {
   height: 100vh;
-  background-color: lightskyblue;
+  background-color: white;
+}
+
+#listofprojects {
+  height: 50%;
 }
 
 #contact {
   height: 100vh;
-  background-image: url("kindajean.png");
+  background-image: url("./images/kindajean.png");
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -82,9 +99,25 @@ h4 {
   margin-top: auto;
   font-weight: bolder;
 }
+#biopic {
+  border-radius: 50%;
+}
 
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #form {
-  width: 80vw;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 20vw;
+  height: 90%;
 }
 
 .shadow {
@@ -98,4 +131,10 @@ h4 {
   align-items: center;
   justify-content: center;
   margin: 5% 10%;
+}
+
+/* hover effects */
+
+.hoverlinks:hover {
+  transform: scale(1.5);
 }
