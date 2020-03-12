@@ -13,14 +13,21 @@ html {
   padding: 0;
   margin: 0;
 }
+/* all the divs with centered elements */
+#home,
+#about,
+.grid-container,
+#form,
+.media-object {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Home page */
 #home {
   height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #name {
@@ -48,10 +55,6 @@ h4 {
   margin-top: -10%;
   text-align: center;
   font-size: 5vw;
-  /* color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black; */
 }
 
 #links {
@@ -66,17 +69,18 @@ h4 {
   display: flex;
   justify-content: space-evenly;
 }
-/* .fi-home {
-  font-size: 72px;
-} */
+
+/*About page*/
 #about {
   height: 100vh;
-  background-image: url(./images/pavement-2117938.jpg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  background-image: url(./images/tetris.jpg);
+  color: black;
 }
+#biopic {
+  border-radius: 50%;
+}
+
+/*projects page*/
 
 #projects {
   height: 100vh;
@@ -87,6 +91,7 @@ h4 {
   height: 50%;
 }
 
+/*Contacts page*/
 #contact {
   height: 100vh;
   background-image: url("./images/kindajean.png");
@@ -99,20 +104,17 @@ h4 {
   margin-top: auto;
   font-weight: bolder;
 }
-#biopic {
-  border-radius: 50%;
-}
 
-.grid-container {
+/* .grid-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 #form {
   width: 90vw;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .card {
@@ -126,10 +128,10 @@ h4 {
 
 .media-object {
   width: 80vw;
-  display: flex;
   /* flex-direction: column; */
+  /* display: flex;  
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   margin: 5% 10%;
 }
 
@@ -137,4 +139,5 @@ h4 {
 
 .hoverlinks:hover {
   transform: scale(1.5);
+  color: orange;
 }
