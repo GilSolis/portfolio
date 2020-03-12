@@ -13,14 +13,21 @@ html {
   padding: 0;
   margin: 0;
 }
+/* all the divs with centered elements */
+#home,
+#about,
+.grid-container,
+#form,
+.media-object {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Home page */
 #home {
   height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #name {
@@ -66,15 +73,10 @@ h4 {
   display: flex;
   justify-content: space-evenly;
 }
-/* .fi-home {
-  font-size: 72px;
-} */
+
 #about {
   height: 100vh;
   background-image: url(./images/tetris.jpg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: black;
 }
 
@@ -103,16 +105,16 @@ h4 {
   border-radius: 50%;
 }
 
-.grid-container {
+/* .grid-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 #form {
   width: 90vw;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .card {
@@ -126,10 +128,10 @@ h4 {
 
 .media-object {
   width: 80vw;
-  display: flex;
   /* flex-direction: column; */
+  /* display: flex;  
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   margin: 5% 10%;
 }
 
@@ -137,4 +139,6 @@ h4 {
 
 .hoverlinks:hover {
   transform: scale(1.5);
+  text-shadow: 0px 0px 150px darkblue, 0px 0px 75px darkblue,
+    0px 0px 30px darkblue;
 }
