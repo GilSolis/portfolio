@@ -71,11 +71,11 @@ h4 {
 } */
 #about {
   height: 100vh;
-  background-image: url(./images/pavement-2117938.jpg);
+  background-image: url(./images/tetris.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 #projects {
