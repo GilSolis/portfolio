@@ -142,3 +142,7 @@ h4 {
   transform: scale(1.5);
   color: orange;
 }
+
+.card:hover {
+  border: 3px solid orange;
+}
