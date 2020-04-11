@@ -1,148 +1,168 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
-  padding: 0;
-  margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
 }
+
+
 /* all the divs with centered elements */
+
 #home,
 #about,
 .grid-container,
 #form,
 .media-object {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 /* Home page */
+
 #home {
-  height: 100vh;
-  flex-direction: column;
+    height: 100vh;
+    flex-direction: column;
 }
 
 #name {
-  width: 40vw;
-  text-align: justify;
+    width: 40vw;
+    text-align: justify;
 }
 
 #title {
-  background: url("./images/long.jpg");
-  font-family: Alfa Slab One;
-  /* color: black; */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: blue;
+    background: url("./images/long.jpg");
+    font-family: Alfa Slab One;
+    /* color: black; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
 }
 
 h1 {
-  font-family: Alfa Slab One;
-  text-align-last: justify;
-  font-size: 9vw;
+    font-family: Alfa Slab One;
+    text-align-last: justify;
+    font-size: 9vw;
 }
+
 h4 {
-  font-family: Alfa Slab One;
-  margin-top: -10%;
-  text-align: center;
-  font-size: 5vw;
+    font-family: Alfa Slab One;
+    margin-top: -10%;
+    text-align: center;
+    font-size: 5vw;
 }
 
 #links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 2vw;
-}
-#social {
-  font-size: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2vw;
 }
 
+#social {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 /*About page*/
+
 #about {
-  height: 100vh;
-  background-image: url(./images/tetris.jpg);
-  color: black;
+    height: 100vh;
+    background-image: url(./images/tetris.jpg);
+    color: black;
 }
+
 #biopic {
-  border-radius: 50%;
-  border: 3px solid silver;
+    border-radius: 50%;
+    border: 3px solid silver;
 }
+
 
 /*projects page*/
 
 #projects {
-  height: 100vh;
-  background-color: white;
+    height: 100vh;
+    background-color: white;
 }
 
 #listofprojects {
-  height: 50%;
+    height: 50%;
 }
 
+
 /*Contacts page*/
+
 #contact {
-  height: 100vh;
-  background-image: url("./images/kindajean.png");
-  font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url("./images/kindajean.png");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #contacttitle {
-  margin: 5vw;
-  margin-bottom: auto;
-  margin-top: auto;
-  font-weight: bolder;
+    margin: 5vw;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bolder;
 }
+
 
 /* .grid-container {
   display: flex;
   align-items: center;
   justify-content: center;
 } */
+
 #form {
-  width: 90vw;
-  /* display: flex;
+    width: 90vw;
+    /* display: flex;
   align-items: center;
   justify-content: center; */
 }
 
 .card {
-  max-width: 20vw;
-  height: 90%;
+    max-width: 20vw;
+    height: 90%;
 }
 
 .shadow {
-  box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .media-object {
-  width: 80vw;
-  /* flex-direction: column; */
-  /* display: flex;  
+    width: 80vw;
+    /* flex-direction: column; */
+    /* display: flex;  
   align-items: center;
   justify-content: center; */
-  margin: 5% 10%;
+    margin: 5% 10%;
 }
+
 
 /* hover effects */
 
 .hoverlinks:hover {
-  transform: scale(1.5);
-  color: orange;
+    transform: scale(1.5) rotate(360deg);
+    /* transform:  */
+    transition-duration: 1s;
+    /* transition-property: transform; */
+    color: orange;
 }
 
 .card:hover {
-  border: 3px solid orange;
+    border: 3px solid orange;
 }
